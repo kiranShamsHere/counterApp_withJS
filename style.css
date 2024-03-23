@@ -1,0 +1,142 @@
+/* UNIVERSAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* BODY CSS */
+body {
+  font-family: "Sansita", sans-serif;
+  font-weight: 300;
+}
+
+/* HEADER CSS */
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 120px;
+  background-color: #11141a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 100;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* LOGO CSS */
+.logo {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* MAIN SECTION CSS */
+.main-section {
+  min-height: 100vh;
+  background-color: #1f242d;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+/* H1 CSS */
+h1 {
+  font-size: 60px;
+  padding-top: 80px;
+  font-weight: 600;
+}
+
+/* H2 CSS */
+.heading_two {
+  font-size: 60px;
+  padding-top: 20px;
+  position: relative;
+  font-weight: 600;
+}
+
+/* COUNTER APP CSS */
+.main-container {
+  margin-top: 40px;
+}
+
+/* H3 CSS */
+h3 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS CSS */
+
+.button-same {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button-same:disabled {
+  pointer-events: none;
+}
+
+.button-same:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  color: #0ef;
+}
+
+.button-same:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* FOOTER CSS */
+footer {
+  background-color: #11141a;
+  height: 100px;
+  padding: 30px;
+  min-height: 10vh;
+}
+
+/* H4 CSS */
+h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 100;
+}
+
+/* MEDIA QUERY FOR HEADER */
+@media all and (min-width: 768px) {
+  header {
+    text-align: center;
+  }
+}
